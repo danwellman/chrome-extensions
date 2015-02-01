@@ -1,0 +1,15 @@
+﻿{
+    "manifest_version": 2,
+    "name": "page_action",
+    "version": "0.1.0",
+    "description": "An example page action extension",
+    "author": "Dan Wellman",
+    "page_action": {
+        "default_title": "My example page action"
+    },
+    "background": {
+        "scripts": [ "background.js" ],
+        "persistent": false
+    },
+    "permissions": ["declarativeContent"]
+}

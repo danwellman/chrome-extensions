@@ -1,0 +1,6 @@
+﻿body { margin: 1em 2em; }
+h1 { white-space: nowrap; padding-bottom:.5em; border-bottom: 1px solid #eee; }
+label { margin: .25em 0 1.5em; float: left; }
+button { float: right; }
+a { display: block; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 1em 0 1.5em;  clear: both; }
+p { margin-bottom: 1.5em; }

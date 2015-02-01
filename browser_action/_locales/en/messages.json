@@ -1,0 +1,14 @@
+﻿{
+    "extensionName": {
+        "message": "browser_action",
+        "description": "Extension name"
+    },
+    "extensionDescription": {
+        "message": "An example browser action extension",
+        "description": "Extension description"
+    },
+    "popupTitle": {
+        "message": "My awesome popup!",
+        "description":  "Popup title"
+    }
+}

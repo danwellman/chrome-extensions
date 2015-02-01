@@ -1,0 +1,12 @@
+﻿{
+    "manifest_version": 2,
+    "name": "devtools",
+    "version": "0.1.0",
+    "description": "An example devtools extension",
+    "author": "Dan Wellman",
+    "devtools_page": "devtools.html",
+    "background": {
+        "scripts": [ "background.js" ],
+        "persistent":  false
+    }
+}

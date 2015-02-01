@@ -1,0 +1,25 @@
+﻿{
+    "manifest_version": 2,
+    "name": "__MSG_extensionName__",
+    "version": "0.1.0",
+    "description": "__MSG_extensionDescription__",
+    "author": "Dan Wellman",
+    "browser_action": {
+        "default_title": "Use this to open the popup",
+        "default_popup": "popup/popup.html"
+    },
+    "background": {
+        "scripts": [ "background.js" ],
+        "persistent": false
+    },
+    "permissions": [ "tabs", "http://numbersapi.com/" ],
+    "content_scripts": [
+        {
+            "matches": [ "*://*/*" ],
+            "js": [ "content.js" ],
+            "css": [ "content.css" ]
+        }
+    ],
+    "default_locale": "en",
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://code.jquery.com; object-src 'self'"
+}
